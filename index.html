@@ -16,18 +16,17 @@
     .sora-font {
   font-family: "Sora", serif;
 }
-
 </style>
 
 </head>
 <body class="sora-font ">
-    <header class="lg:space-y-20 bg-gradient-to-r from-red-500 to-blue-500">
+    <header class="lg:space-y-20 bg-[#f4f1eb] mb-10 lg:mb-20">
         <nav class="lg:mb-8">
             <div class="navbar flex lg:justify-between">
                <div class="">
-                    <a class="lg:text-xl lg:w-20 lg:w-full "><img src="c2-assets/logo-header.png" alt=""></a>
+                    <a class="hidden lg:block lg:text-xl lg:w-20 lg:w-full "><img src="c2-assets/logo-header.png" alt=""></a>
                   <div class="dropdown flex justify-around  ">
-                    <div><img class="lg:hidden " src="c2-assets/Group.png" alt=""></div>
+                    <div><img class=" lg:hidden " src="c2-assets/Group.png" alt=""></div>
                     <div tabindex="0" role="button" class="btn  btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -75,6 +74,7 @@
                 
               </div>
         </nav>
+        <div class="bg-green-600 lg:hidden"><hr></div>
         <!-- banner section -->
          <div class="text-center ">
            <div class=" space-y-5">
@@ -89,6 +89,24 @@
          </div>
     </header>
     <main class=" space-y-10">
+        <!-- add a new section -->
+         <div class="max-w-6xl mx-auto ">
+                <div
+            class="hero min-h-screen"
+                style="background-image: url(c2-assets/hero-vegetables.png);">
+            <div class="hero-overlay bg-opacity-30 rounded-lg bg-[#867565]"></div>
+            <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold text-green-600">Hello there</h1>
+            <p class="mb-5 text-green-600">
+                this is a wonderful grocery store.if you want you can by everything for you and your family.they sell  fresh and helthe food.
+            </p>
+            <button class="btn bg-green-700 text-white">Get Started</button>
+    </div>
+  </div>
+</div>
+
+         </div>
         <!-- service section -->
         <section class=" lg:space-y-16 max-w-6xl mx-auto gap-5 ">
             <h2 class="text-[#179800] text-4xl font-semibold m-2.5">Services</h2>
@@ -97,7 +115,7 @@
               <div class="text-center bg-[#EFEBE3] max-w-sm p-8 rounded-2xl space-y-2">
                 <div class="avatar">
                     <div class="w-24 rounded-full">
-                      <img src="c2-assets/service.png" />
+                      <img class="bg-white p-3" src="c2-assets/service.png" />
                     </div>
                 </div>
                 <h4 class="font-semibold text-2xl">24/7 Services </h4>
@@ -107,7 +125,7 @@
               <div class="text-center  bg-[#EFEBE3] max-w-sm p-8 rounded-2xl space-y-2">
                 <div class="avatar">
                     <div class="w-24 rounded-full">
-                      <img src="c2-assets/delivery.png" />
+                      <img class="bg-white p-3" src="c2-assets/delivery.png" />
                     </div>
                 </div>
                 <h4 class="font-semibold text-2xl">Fast Delivery </h4>
@@ -117,7 +135,7 @@
               <div class=" text-center bg-[#EFEBE3] max-w-sm p-8 rounded-2xl space-y-2">
                 <div class="avatar ">
                     <div class="w-24 rounded-full bg-white">
-                      <img  src="c2-assets/healthy.png" />
+                      <img class="bg-white p-3" src="c2-assets/healthy.png" />
                     </div>
                 </div>
                 <h4 class="font-semibold text-2xl">Healthy Products  </h4>
@@ -131,17 +149,17 @@
             <div class="lg:max-w-6xl mx-auto space-y-11">
             <h2 class="text-[#179800] text-4xl font-semibold m-2.5 lg:mt-12 ">Popular Products</h2>
             <div class=" flex gap-6 lg:flex-row flex-col justify-center ">
-                <div class="bg-[#53DB3A] lg:w-2/5 rounded-lg h-fit mb-2">
+                <div class="bg-[#53DB3A] lg:w-2/5 rounded-xl m-3">
                     <div class="pl-10 pt-10 space-y-3">
                     <h3 class=" text-white font-semibold text-2xl ">30% off</h3>
                     <p class="from-neutral-200">Discover a world of treats, toys, and essentials handpicked for </p>
                     <button class=" bg-white px-4 py-3 rounded-lg">Buy Now</button>
-                    <img class="" src="c2-assets/vegetable-offer.png" alt="">
+                    <img class="ml-[80px]" src="c2-assets/vegetable-offer.png" alt="">
                 </div>
                 </div>
                 <!-- small card -->
-                 <div class="lg:w-3/5 grid lg:grid-cols-3 grid-cols-2 gap-4 ">
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                 <div class="lg:w-3/5  grid lg:grid-cols-3 grid-cols-2  lg:m-2 ">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-3 rounded-lg">
                     <div>
                         <img class="bg-[#EFEBE3] rounded-lg " src="c2-assets/onion.png" alt="">
                     </div>
@@ -156,9 +174,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/tomato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/tomato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -171,9 +189,9 @@
                             <p class="font-medium">$49.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/potato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/potato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -186,9 +204,9 @@
                             <p class="font-medium">$59.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-3 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/onion.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/onion.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -201,9 +219,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/tomato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/tomato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -216,9 +234,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/potato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/potato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -231,9 +249,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-3 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/onion.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/onion.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -246,9 +264,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/tomato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/tomato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -261,9 +279,9 @@
                             <p class="font-medium">$39.99</p>
                     </div>
                 </div>
-                <div class="flex items-center bg-white gap-2 w-52 h-28 p-4 rounded-lg">
+                <div class="flex items-center bg-white gap-2 w-48 h-24 p-2 rounded-xl invisible lg:visible">
                     <div>
-                        <img class="bg-[#EFEBE3]" src="c2-assets/tomato.png" alt="">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="c2-assets/tomato.png" alt="">
                     </div>
                     <div>
                         <div class=" flex">
@@ -281,15 +299,80 @@
             </div>
          </section>
          <!-- offer section -->
-          <div>
-            <h2 class="text-[#179800] text-4xl font-semibold m-2.5 lg:mt-12">Arrival & Offers</h2>
-            <div>
-              <img src="c2-assets/dawat-logo.png" alt="">  
+          <section class="lg:max-w-6xl mx-auto ">
+            <h2 class="text-[#179800] text-4xl font-semibold space-y-10 lg:mt-12">Arrival & Offers</h2>
+          <div class="flex m-3 flex-col lg:flex-row items-center gap-1 mt-5">
+            
+            <div class=" bg-[#115414] lg:w-8/12 flex justify-between p-5 items-center rounded-xl ">
+            <div class="space-y-4 ">
+                <img src="c2-assets/dawat-logo.png" alt=""> 
+                <button class="bg-[#63B76D] px-8 py-3 text-white rounded-lg">Cook Exotic Dishes</button> 
+                <h2 class=" font-medium text-white text-3xl">UP to <span class="font-extrabold text-white"> 20% OFF</span></h2>
             </div>
+            <div>
+                <img class="" src="c2-assets/dawat-mock-up.png" alt="">
+            </div>
+            </div>
+            <div>
+                <div class=" bg-[#102861] flex-1 flex justify-between p-7 items-center rounded-xl mt-1">
+                    <div class="space-y-4 ">
+                        <img src="c2-assets/india-gate-logo.png" alt=""> 
+                        <button class="bg-[#2A4D97] px-8 py-3 text-white rounded-lg">World’s No.1 Rice</button> 
+                        <h2 class=" font-medium text-white text-3xl">UP to <span class="font-extrabold text-white"> 40% OFF</span></h2>
+                    </div>
+                    <div>
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+            </div>
+
           </div>
+          </div>
+        </section>
 
     </main>
-    <footer>
+    <footer class=" lg:mt-[24%] mx-auto">
+        <div class="relative">
+            <!-- grocery card -->
+        
+            <div class=" absolute top-[-25%] ml-auto lg:top-[-45%] lg:ml-[20%] p-2 flex  justify-center justify-evenly items-center rounded-xl  bg-[#EFEBE3] max-w-4xl lg:max-h-96 h-auto mx-auto">
+                <div>
+                    <img src="c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div class="space-y-4">
+                    <h2 class="font-semibold text-4xl">Get Grocery News!</h2>
+                    <p class="text-1xl">Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="text-black bg-white rounded-lg py-3 px-20 " type="email" name="" placeholder="Enter email" id=""> <br>
+                    <button class="bg-[#179800] text-white rounded-lg py-2 px-7">Subscribe</button>
+                </div>
+            </div>
+        
+        <!-- footer -->
+       
+        <div class="">
+            <div class="bg-[#179800] flex flex-col lg:flex-row space-y-5 lg:justify-around h-120   lg:items-center p-5">
+                <div>
+                    <img src="c2-assets/logo-footer.png" alt="">
+                    <p class="text-[#EFEBE3]">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-[#EFEBE3]">Products</h3>
+                    <h3 class="text-[#EFEBE3]">Service</h3>
+                    <h3 class="text-[#EFEBE3]">Contact us</h3>
+                </div>
+                <div>
+                    <h4 class="text-[#EFEBE3]">Follow us</h4>
+                    <div class="flex gap-2">
+                       <div> <img src="c2-assets/Group (1).png" alt=""></div>
+                       <div> <img src="c2-assets/Vector.png" alt=""></div>
+                        <div><img src="c2-assets/Vector (1).png" alt=""></div>
+                        <div><img src="c2-assets/Mask group.png" alt=""></div>
+                        
+                    </div>
+                </div>
+            </div>
+           </div>
+       </div>
+    
 
     </footer>
 </body>
